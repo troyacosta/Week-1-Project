@@ -393,7 +393,9 @@ nav {
   margin-bottom: 2.63em;
   box-sizing: border-box; }
 
-.personal, .smallBusiness, .enterprise {
+.personal,
+.smallBusiness,
+.enterprise {
   height: 13.25em;
   text-align: center;
   box-sizing: border-box;
@@ -418,9 +420,10 @@ nav {
 
 .perMonth {
   font-size: 1.1em;
-  color: #A3C5A3; }
+  color: #fff;
+  opacity: .5; }
 
-.info {
+.details {
   height: 2.75em;
   border-top: .1em solid #d8d8d8;
   background-color: #F7F7F7;
@@ -429,7 +432,7 @@ nav {
   box-sizing: border-box;
   padding: .8em 0; }
 
-.lastInfo {
+.lastDetail {
   border-bottom: .1em solid #d8d8d8; }
 
 .choose {
@@ -439,9 +442,30 @@ nav {
   padding: .5em;
   text-align: center;
   width: 5em; }
-  .choose span {
+  .choose a {
     color: #1E1E1E;
     margin: .25em;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: none; }
+
+.infoBox {
+  padding-left: 2.5em; }
+  .infoBox .info {
+    color: #000000;
+    margin-top: 4em; }
+  .infoBox .infoText {
+    color: #6b7a80;
+    line-height: 1.5em;
+    margin-top: 1.75em; }
+
+footer {
+  background-color: #000;
+  margin-top: 2em;
+  text-align: center;
+  color: #8C8C8C;
+  padding: 2em;
+  line-height: 1.5em; }
+  footer a {
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
