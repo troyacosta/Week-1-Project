@@ -371,19 +371,20 @@ nav {
   nav a {
     text-decoration: none;
     color: #60676d;
-    margin: 0 .625em; }
+    margin: 0 1em; }
 
 .landing {
   background-image: url(../img/background.jpg);
   height: 12.5em;
   width: 100%;
-  color: #fff;
-  text-align: center;
   margin-bottom: 3.125em;
   box-sizing: border-box;
   padding: 4em 0; }
-  .landing h1 {
-    margin: 0; }
+
+.landingText {
+  color: #fff;
+  text-align: center;
+  font-size: 1.9em; }
 
 .price {
   height: 35.875em;
@@ -449,7 +450,7 @@ nav {
     text-decoration: none; }
 
 .infoBox {
-  padding-left: 2.5em; }
+  padding: 0 .2em 0 2.5em; }
   .infoBox .info {
     color: #000000;
     margin-top: 4em; }
@@ -467,5 +468,13 @@ footer {
   line-height: 1.5em; }
   footer a {
     color: #fff; }
+
+/*css for breakpoint #2*/
+@media screen and (min-width: 479px) {
+  .landing {
+    height: 25em;
+    padding: 9em 0; }
+    .landing > .landingText {
+      font-size: 3em; } }
 
 /*# sourceMappingURL=main.css.map */
