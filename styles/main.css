@@ -364,7 +364,7 @@ nav {
   text-align: left;
   color: #60676D;
   padding: .812em; }
-  nav .price {
+  nav .pricing {
     color: #151515; }
   nav span {
     padding-right: 1.5em; }
@@ -391,7 +391,7 @@ nav {
   width: 96%;
   margin: 0 auto;
   border: .1em solid #D8D8D8;
-  margin-bottom: 2.63em;
+  margin-bottom: .5em;
   box-sizing: border-box; }
 
 .personal,
@@ -450,14 +450,16 @@ nav {
     text-decoration: none; }
 
 .infoBox {
-  padding: 0 .2em 0 2.5em; }
+  padding: 0 .5em 0 2.5em; }
   .infoBox .info {
     color: #000000;
-    margin-top: 4em; }
+    margin-top: 4em;
+    font-size: 1.2em;
+    letter-spacing: .3em; }
   .infoBox .infoText {
     color: #6b7a80;
     line-height: 1.5em;
-    margin-top: 1.75em; }
+    margin-top: 1.25em; }
 
 footer {
   background-color: #000;
@@ -469,12 +471,24 @@ footer {
   footer a {
     color: #fff; }
 
-/*css for breakpoint #2*/
+/* css for breakpoint #2 */
 @media screen and (min-width: 479px) {
   .landing {
     height: 25em;
     padding: 9em 0; }
     .landing > .landingText {
       font-size: 3em; } }
+/* css for breakpoint #3 */
+@media screen and (min-width: 768px) {
+  .price {
+    width: 31%;
+    display: inline-block;
+    margin-left: .7em; }
+
+  .paragraph {
+    display: inline-block;
+    width: 47%;
+    padding-right: 1em; } }
+/* css for breakpoint #4 */
 
 /*# sourceMappingURL=main.css.map */
