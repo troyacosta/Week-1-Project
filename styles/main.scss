@@ -1,6 +1,7 @@
 @import 'normalize.scss';
+$white: #fff;
 body {
-    color: #fff;
+    color: $white;
     width: 100%;
 }
 
@@ -31,7 +32,7 @@ nav {
 }
 
 .landingText {
-    color: #fff;
+    color: $white;
     text-align: center;
     font-size: 1.9em;
     text-shadow: 1px 1px 2px black;
@@ -79,14 +80,14 @@ nav {
 
 .perMonth {
     font-size: 1.1em;
-    color: #fff;
+    color: $white;
     opacity: .5;
 }
 
 .details {
     height: 2.75em;
     border-top: .1em solid #d8d8d8;
-    background-color: #F7F7F7;
+    background-color: $white;
     text-align: center;
     color: #576369;
     box-sizing: border-box;
@@ -117,6 +118,7 @@ nav {
     width: 96%;
     margin: 0 auto;
     padding-top: 3em;
+    vertical-align: top;
 
     .info {
         color: #000000;
@@ -139,7 +141,7 @@ footer {
     padding: 2em;
     line-height: 1.5em;
     a {
-        color: #fff;
+        color: $white;
     }
 }
 
@@ -177,6 +179,7 @@ footer {
 
 @media screen and (min-width: 979px) {
     .fullScreen {
-        margin: 0 10%;
+        margin: 0 auto;
+        max-width: 60.44em;
     }
 }
